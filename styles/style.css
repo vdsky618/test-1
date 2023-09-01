@@ -1,0 +1,43 @@
+html {
+    font-size: 14px; /* px значит 'пиксели': базовый шрифт будет 12 пикселей в высоту  */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #089acf;
+  }
+
+body {
+    width: 600px;
+    margin: 2rem auto; /*px - пиксели, rem - доля высоты стандартного шрифта hmml, */
+    background-color: yellow;
+    padding: 0px 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+
+    margin: 20px;
+    padding: 40px 0;
+    border: 5px solid black;
+  }
+ 
+  
+p,
+li {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0px;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    /*background-color: #fb00ff;*/
+    /*padding: 5px 5px 5px 5px;*/
+    border: 5px solid #089acf;
+  }
+  
