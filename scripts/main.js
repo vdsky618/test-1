@@ -18,7 +18,7 @@ var ButtonUser = document.querySelector("button");
 var myHeading = document.querySelector("h1");
 
 function setUserName() {
-  var myName = prompt("Please enter your name.", "Groot");
+  var myName = prompt("Please enter your name.", "Иван");
   localStorage.setItem("name", myName);
   myHeading.textContent = "Mozilla is cool, " + myName;
 }
